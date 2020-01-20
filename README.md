@@ -11,6 +11,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Clojure](#clojure)
 - [Elixir](#elixir)
 - [Erlang](#erlang)
+- [F#](#f)
 - [Go](#go)
 - [Haskell](#haskell)
 - [HTML/CSS](#html-and-css)
@@ -40,6 +41,11 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [How to Write an Emulator (CHIP-8 interpreter)](http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/)
 - [Beginning Game Programming with C++ and SDL](http://lazyfoo.net/tutorials/SDL/)
 - [Implementing a Key-Value Store](http://codecapsule.com/2012/11/07/ikvs-implementing-a-key-value-store-table-of-contents/)
+- Tiny 3D graphics projects
+  - [Tiny Renderer or how OpenGL works: software rendering in 500 lines of code](https://github.com/ssloy/tinyrenderer/wiki)
+  - [Understandable RayTracing in 256 lines of bare C++](https://github.com/ssloy/tinyraytracer/wiki)
+  - [KABOOM! in 180 lines of bare C++](https://github.com/ssloy/tinykaboom/wiki)
+  - [486 lines of C++: old-school FPS in a weekend](https://github.com/ssloy/tinyraycaster/wiki)
 - Writing a minimal x86-64 JIT compiler in C++
   - [Part 1](https://solarianprogrammer.com/2018/01/10/writing-minimal-x86-64-jit-compiler-cpp/)
   - [Part 2](https://solarianprogrammer.com/2018/01/12/writing-minimal-x86-64-jit-compiler-cpp-part-2/)
@@ -49,6 +55,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Let's Write a Kernel](http://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel)
 - [Write a Bootloader in C](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/)
 - [Linux Container in 500 Lines of Code](https://blog.lizzie.io/linux-containers-in-500-loc.html)
+- [Write Your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
+- [Learning KVM - Implement Your Own Linux Kernel](https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html)
 - Write a C compiler
   - [Part 1: Integers, Lexing and Code Generation](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
   - [Part 2: Unary Operators](https://norasandler.com/2017/12/05/Write-a-Compiler-2.html)
@@ -58,6 +66,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 6: Conditionals](https://norasandler.com/2018/02/25/Write-a-Compiler-6.html)
   - [Part 7: Compound Statements](https://norasandler.com/2018/03/14/Write-a-Compiler-7.html)
   - [Part 8: Loops](https://norasandler.com/2018/04/10/Write-a-Compiler-8.html)
+  - [Part 9: Functions](https://norasandler.com/2018/06/27/Write-a-Compiler-9.html)
+  - [Part 10: Global Variables](https://norasandler.com/2019/02/18/Write-a-Compiler-10.html)
 - [Implementing a Language with LLVM](https://llvm.org/docs/tutorial/#kaleidoscope-implementing-a-language-with-llvm)
 - [Meta Crush Saga: a C++17 compile-time game](https://jguegant.github.io//jguegant.github.io/blogs/tech/meta-crush-saga.html)
 - [High-Performance Matrix Multiplication](https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0)
@@ -97,6 +107,15 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 4 - libuv](https://eli.thegreenplace.net/2017/concurrent-servers-part-4-libuv/)
   - [Part 5 - Redis case study](https://eli.thegreenplace.net/2017/concurrent-servers-part-5-redis-case-study/)
   - [Part 6 - Callbacks, Promises and async/await](https://eli.thegreenplace.net/2018/concurrent-servers-part-6-callbacks-promises-and-asyncawait/)
+ 
+- MQTT Broker from scratch
+  - [Part 1 - The protocol](https://codepr.github.io/posts/sol-mqtt-broker)
+  - [Part 2 - Networking](https://codepr.github.io/posts/sol-mqtt-broker-p2)
+  - [Part 3 - Server](https://codepr.github.io/posts/sol-mqtt-broker-p3)
+  - [Part 4 - Data structures](https://codepr.github.io/posts/sol-mqtt-broker-p4)
+  - [Part 5 - Topic abstraction](https://codepr.github.io/posts/sol-mqtt-broker-p5)
+  - [Part 6 - Handlers](https://codepr.github.io/posts/sol-mqtt-broker-p6)
+  - [Bonus - Multithreading](https://codepr.github.io/posts/sol-mqtt-broker-bonus)
 
 ### OpenGL:
 
@@ -129,17 +148,22 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 ## Clojure:
 
 - [Build a Twitter Bot with Clojure](http://howistart.org/posts/clojure/1/index.html)
-- [Bulding a Spell-Checker](https://bernhardwenzel.com/articles/clojure-spellchecker/)
+- [Building a Spell-Checker](https://bernhardwenzel.com/articles/clojure-spellchecker/)
 - [Building a JIRA integration with Clojure & Atlassian Connect](https://hackernoon.com/building-a-jira-integration-with-clojure-atlassian-connect-506ebd112807)
 
 ## Elixir
 
 - [Building a Simple Chat App With Elixir and Phoenix](https://sheharyar.me/blog/simple-chat-phoenix-elixir/)
+- [How to write a super fast link shortener with Elixir, Phoenix, and Mnesia](https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c)
 
 ## Erlang
 
 - [ChatBus : build your first multi-user chat room app with Erlang/OTP](https://medium.com/@kansi/chatbus-build-your-first-multi-user-chat-room-app-with-erlang-otp-b55f72064901)
 - [Making a Chat App with Erlang, Rebar, Cowboy and Bullet](http://marianoguerra.org/posts/making-a-chat-app-with-erlang-rebar-cowboy-and-bullet.html)
+
+## F#:
+
+- [Write your own Excel in 100 lines of F#](http://tomasp.net/blog/2018/write-your-own-excel)
 
 ## Java:
 
@@ -152,6 +176,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [Build 30 things in 30 days with 30 tutorials](https://javascript30.com)
 - [Build an App in Pure JS](https://medium.com/codingthesmartway-com-blog/pure-javascript-building-a-real-world-application-from-scratch-5213591cfcd6)
+- [Build a Jupyter Notebook Extension](https://link.medium.com/wWUO7TN8SS)
 
 ## HTML and CSS:
 
@@ -189,6 +214,14 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build an Appointment Scheduler](https://hackernoon.com/build-an-appointment-scheduler-using-react-twilio-and-cosmic-js-95377f6d1040)
 - [Build A Chat App with Sentiment Analysis](https://codeburst.io/build-a-chat-app-with-sentiment-analysis-using-next-js-c43ebf3ea643)
 - [Build A Full Stack Web Application Setup](https://hackernoon.com/full-stack-web-application-using-react-node-js-express-and-webpack-97dbd5b9d708)
+- Build A Random Quote Machine
+  - [Part 1](https://www.youtube.com/watch?v=3QngsWA9IEE)
+  - [Part 2](https://www.youtube.com/watch?v=XnoTmO06OYo)
+  - [Part 3](https://www.youtube.com/watch?v=us51Jne67_I)
+  - [Part 4](https://www.youtube.com/watch?v=iZx7hqHb5MU)
+  - [Part 5](https://www.youtube.com/watch?v=lpba9vBqXl0)
+  - [Part 6](https://www.youtube.com/watch?v=Jvp8j6zrFHE)
+  - [Part 7](https://www.youtube.com/watch?v=M_hFfrN8_PQ)
 
 #### Angular:
 
@@ -197,8 +230,10 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 1](https://houssein.me/angular2-hacker-news)
   - [Part 2](https://houssein.me/progressive-angular-applications)
 - [Build a Google+ clone with Django and AngularJS (Angular 1.x)](https://thinkster.io/django-angularjs-tutorial)
-- Build A Beautiful Real World App with Angular 6 :
+- Build A Beautiful Real World App with Angular 8 :
   - [Part I](https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e)
+  - [Part II](https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-8-the-ultimate-guide-2019-part-ii-fe70852b2d6d)
+
 - [Build Responsive layout with BootStrap 4 and Angular 6](https://medium.com/@tomastrajan/how-to-build-responsive-layouts-with-bootstrap-4-and-angular-6-cfbb108d797b)
 - ToDo App with Angular 5
   - [Introduction to Angular](http://www.discoversdk.com/blog/intro-to-angular-and-the-evolution-of-the-web)
@@ -224,6 +259,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - Build a full stack web application using MEVN (MongoDB, Express, Vue, Node) stack
   - [Part 1](https://medium.com/@anaida07/mevn-stack-application-part-1-3a27b61dcae0)
   - [Part 2](https://medium.com/@anaida07/mevn-stack-application-part-2-2-9ebcf8a22753)
+- [Vue.js To-Do List Tutorial (video)](https://www.youtube.com/watch?v=78tNYZUS-ps)
 
 #### Others (Hapi, Express...):
 
@@ -256,7 +292,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 1](https://scotch.io/tutorials/build-a-music-player-with-react-electron-i-setup-basic-concepts)
   - [Part 2](https://scotch.io/tutorials/build-a-music-player-with-react-electron-ii-making-the-ui)
   - [Part 3](https://scotch.io/tutorials/build-a-music-player-with-react-electron-iii-bringing-it-all-together)
-- (Build A Desktop Chat App with React and Electron)[https://medium.freecodecamp.org/build-a-desktop-chat-app-with-react-electron-and-chatkit-744d168e6f2f]
+- [Build A Desktop Chat App with React and Electron](https://medium.freecodecamp.org/build-a-desktop-chat-app-with-react-electron-and-chatkit-744d168e6f2f)
 
 ### Miscellaneous:
 
@@ -346,6 +382,10 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build Your Own Neural Net from Scratch in Python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
 - [Linear Regression in Python without sklearn](https://medium.com/we-are-orb/linear-regression-in-python-without-scikit-learn-50aef4b8d122)
 - [Multivariate Linear Regression without sklearn](https://medium.com/we-are-orb/multivariate-linear-regression-in-python-without-scikit-learn-7091b1d45905)
+- [Music Recommender using KNN](https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85)
+- Find Similar Quora Questions-
+  - [Using BOW, TFIDF and Xgboost](https://towardsdatascience.com/finding-similar-quora-questions-with-bow-tfidf-and-random-forest-c54ad88d1370)
+  - [Using Word2Vec and Xgboost](https://towardsdatascience.com/finding-similar-quora-questions-with-word2vec-and-xgboost-1a19ad272c0d)
 
 ### OpenCV:
 
@@ -368,6 +408,12 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Automatic Target Detection Tutorial](https://www.pyimagesearch.com/2015/05/04/target-acquired-finding-targets-in-drone-and-quadcopter-video-streams-using-python-and-opencv/)
 - [EigenFaces using OpenCV](https://www.learnopencv.com/eigenface-using-opencv-c-python/)
 - [Faster(5-point) Facial Landmark Detection Tutorial](https://www.pyimagesearch.com/2018/04/02/faster-facial-landmark-detector-with-dlib/)
+- [Hand Keypoint Detection](https://www.learnopencv.com/hand-keypoint-detection-using-deep-learning-and-opencv/)
+- Dlib Correlation Object Tracking -
+  - [Single Object Tracker](https://www.pyimagesearch.com/2018/10/22/object-tracking-with-dlib/)
+  - [Mutiple Object Tracker](https://www.pyimagesearch.com/2018/10/29/multi-object-tracking-with-dlib/)
+- [Image Stitching with OpenCV and Python](https://www.pyimagesearch.com/2018/12/17/image-stitching-with-opencv-and-python/)
+- [Instance Segmentation with OpenCV](https://www.pyimagesearch.com/2018/11/26/instance-segmentation-with-opencv/)
 
 ### Deep Learning:
 
@@ -401,6 +447,13 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Use EigenFaces and FisherFaces on Faces94 dataset](https://nicholastsmith.wordpress.com/2016/02/18/eigenfaces-versus-fisherfaces-on-the-faces94-database-with-scikit-learn/)
 - [Kaggle MNIST Digit Recognizer Tutorial](https://medium.com/@lvarruda/how-to-get-top-2-position-on-kaggles-mnist-digit-recognizer-48185d80a2d4)
 - [Fashion MNIST tutorial with tf.keras](https://medium.com/tensorflow/hello-deep-learning-fashion-mnist-with-keras-50fcff8cd74a)
+- [CNN using Keras to automatically classify root health](https://www.pyimagesearch.com/2018/10/15/deep-learning-hydroponics-and-medical-marijuana/)
+- [Keras vs Tensorflow](https://www.pyimagesearch.com/2018/10/08/keras-vs-tensorflow-which-one-is-better-and-which-one-should-i-learn/)
+- [Deep Learning and Medical Image Analysis for Malaria Detection](https://www.pyimagesearch.com/2018/12/03/deep-learning-and-medical-image-analysis-with-keras/)
+- [Transfer Learning for Image Classification using Keras](https://towardsdatascience.com/transfer-learning-for-image-classification-using-keras-c47ccf09c8c8)
+- [Code a Smile Classifier using CNNS in Python](https://github.com/kylemcdonald/SmileCNN)
+- [Natural Language Processing using scikit-learn](https://towardsdatascience.com/natural-language-processing-count-vectorization-with-scikit-learn-e7804269bb5e)
+- [Code a Taylor Swift Lyrics Generator](https://towardsdatascience.com/ai-generates-taylor-swifts-song-lyrics-6fd92a03ef7e)
 
 ### Miscellaneous:
 
@@ -419,6 +472,10 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 3](http://www.ardendertat.com/2011/07/17/how-to-implement-a-search-engine-part-3-ranking-tf-idf/)
 - [Build the Game of Life](https://robertheaton.com/2018/07/20/project-2-game-of-life/)
 - [Create terminal ASCII art](https://robertheaton.com/2018/06/12/programming-projects-for-advanced-beginners-ascii-art/)
+- [Write a Tic-Tac-Toe AI](https://robertheaton.com/2018/10/09/programming-projects-for-advanced-beginners-3-a/)
+- [Create photomosaic art](https://robertheaton.com/2018/11/03/programming-project-4-photomosaics/)
+- [Build the game "Snake" in the terminal](https://robertheaton.com/2018/12/02/programming-project-5-snake/)
+- [Write yourself a Git](https://wyag.thb.lt/)
 
 ## Go:
 
@@ -465,8 +522,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [The Ruby on Rails Tutorial](https://www.railstutorial.org/book)
 - [Build Instagram From Scratch with Ruby on Rails](https://www.dropbox.com/s/9vq430e9s3q7pu8/Let%27s%20Build%20Instagram%20with%20Ruby%20on%20Rails%20-%20Free%20Edition.pdf?dl=0)
-- [Build a CMS with Ruby on Rails](https://pchm.co/posts/tutorial-how-to-build-a-cms-in-ruby-on-rails)
 - [Build a Social Network using Rails](https://medium.com/rails-ember-beyond/how-to-build-a-social-network-using-rails-eb31da569233)
+- [How To Build a Ruby on Rails Application](https://www.digitalocean.com/community/tutorials/how-to-build-a-ruby-on-rails-application)
 
 ## Haskell:
 
@@ -490,13 +547,14 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 1](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-1/)
   - [Part 2a](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2a/)
   - [Part 2b](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2b/)
-- [Write an OS in pure Rust](https://os.phil-opp.com/news/2018-03-09-pure-rust/)
+- [Write an OS in pure Rust](https://os.phil-opp.com/)
 - [Build a browser engine in Rust](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
 - [Write a Microservice in Rust](http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/)
 - [Learning Rust with Too Many Linked Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/README.html)
 - Rust in Detail: Writing Scalable Chat Service from Scratch
   - [Part 1: Implementing WebSocket. Introduction.](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html)
   - [Part 2: Sending and Receiving Messages](https://nbaksalyar.github.io/2015/11/09/rust-in-detail-2.html)
+- [Writing a Rust Roguelike for the Desktop and the Web](https://aimlesslygoingforward.com/blog/2019/02/09/writing-a-rust-roguelike-for-the-desktop-and-the-web/)
 
 ## Swift:
 
@@ -512,6 +570,6 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Egghead.io](http://www.egghead.io/)
 - [Michael Herman's Blog](http://mherman.org/)
 - [Thinkster.io](http://thinkster.io)
-- [C Project Based Tutorials](https://www.reddit.com/r/C_Programming/comments/872rlt/c_project_based_tutorials/)
-- [Enlight](https://enlight.nyc/)	
+- [C Project Based Tutorials](https://github.com/rby90/Project-Based-Tutorials-in-C)
+- [Enlight](https://enlight.nyc/)
 - [Hack Club Workshops](https://hackclub.com/workshops/)
